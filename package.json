@@ -1,0 +1,29 @@
+{
+  "name": "snow-contracts",
+  "version": "1.0.0",
+  "description": "Storage of solidity smart contracts for Snow",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowLabsDev/snow-contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnowLabsDev/snow-contracts/issues"
+  },
+  "homepage": "https://github.com/SnowLabsDev/snow-contracts#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.6",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
